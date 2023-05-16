@@ -11,6 +11,7 @@ const sidebar = document.querySelector('.sidebar')
 
 sideToggle.addEventListener('click', function () {
     sidebar.classList.add('show-sidebar')
+    //we can aslo use toggle function in place of add
 })
 
 closebtn.addEventListener('click', function () {
